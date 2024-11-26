@@ -122,3 +122,6 @@ streamlit run financial_scoring_app.py
    * Explore individual member spending trends.
 
 ---
+
+# Acknowledgments
+This project is part of the Sustain Farmers Initiative
