@@ -124,4 +124,4 @@ streamlit run financial_scoring_app.py
 ---
 
 # Acknowledgments
-This project is part of the Sustain Farmers Initiative
+This project is part of the **Sustain Farmers** Initiative
