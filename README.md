@@ -54,18 +54,20 @@ pip install flask streamlit pandas matplotlib seaborn plotly
 
 ## Project Setup
 
-1. **Clone the Repositor**: ```bash
-   git clone <repository_url>
-   cd financial-insights-dashboard
-  ```
-```
-
-2. Add the Dataset: Place the file family_financial_and_transactions_data.csv in the project directory.
-3. Run the Flask API: Start the Flask server
+1. **Clone the Repositor**:
+2. ```bash
+   git clone https://github.com/yourusername/financial-scoring-app.git
+   cd financial-scoring-app
+   ```
+3. Set Up Virtual Environment
+   ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows: env\Scripts\activate
+4. Run the Flask API: Start the Flask server
 ```bash
  python financial_scoring_api.py
 ```
-4.Run the Streamlit App: Start the Streamlit server
+5.Run the Streamlit App: Start the Streamlit server
 ```bash
 streamlit run financial_scoring_app.py
 ```
